@@ -72,3 +72,53 @@ ul {
 .iconSocial {
   width: 2.6rem;
 }
+
+@media (max-width: 850px) {
+  .profileOutline {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(230, 184, 184);
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .pictureOutline {
+    padding: 0.2rem;
+  }
+
+  .profilePicture {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  #name {
+    font-size: 0.9rem;
+  }
+
+  #role {
+    font-size: 0.6rem;
+  }
+
+  ul {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .iconSocial {
+    width: 1.6rem;
+  }
+}
